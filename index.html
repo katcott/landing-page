@@ -7,25 +7,60 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
-    <div class="content">
-        <div class="header">
-            <p class="logo">Header Logo</p>
-            <ul>
-                <li><a href="#">header link one</a></li>
-                <li><a href="#">header link two</a></li>
-                <li><a href="#">header link three</a></li>
-            </ul>
+    <div class="flexRow header">
+        <p class="logo">Header Logo</p>
+        <ul>
+            <li><a href="#">header link one</a></li>
+            <li><a href="#">header link two</a></li>
+            <li><a href="#">header link three</a></li>
+        </ul>
+    </div>
+    <div class="top-content flexRow" style="padding: 50px;">
+        <div class="awesome flexColumn">
+            <p class="mainTitle">This website is awesome</p>
+            <p class="smallerTitle">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+            <button style="margin-top: 20px">Sign up</button>
         </div>
-        <div class="top-content">
-            <div class="awesome">
-                <p class="mainTitle">This website is awesome</p>
-                <p class="smallerTitle">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-                <button>Sign up</button>
+        <div class="image">
+            <img src="./images/pexels-șopterean-raul-18427982.jpg" alt="a door" style="height:600px; border-radius: 12px;">
+        </div>
+    </div>
+    <div class="random flexColumn">
+        <p class="randomInfo">Some random information.</p>
+        <div class="randomPics">
+            <div class="childImage flexColumn">
+                <img src="./images/pexels-șopterean-raul-18423870.jpg" alt="stained glass image" height="200px"/>
+                <p>this is some subtext under an illustration or image</p>
             </div>
-            <div class="image">
-                <img src="./images/pexels-șopterean-raul-18427982.jpg" alt="a door" style="height:600px;">
+            <div class="childImage flexColumn">
+                <img src="./images/pexels-șopterean-raul-18428042.jpg" alt="medieval building image" height="200px"/>
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div class="childImage flexColumn">
+                <img src="./images/pexels-șopterean-raul-18443074.jpg" alt="rotunda image" height="200px"/>
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div class="childImage flexColumn">
+                <img src="./images/pexels-șopterean-raul-18516023.jpg" alt="athena statue" height="200px"/>
+                <p>this is some subtext under an illustration or image</p>
             </div>
         </div>
+    </div>
+    <div class="quoteSection flexColumn">
+        <p class="nomarginpad quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actualy read it. Who knows? All I know is that it looks nice.</p>
+        <p class="nomarginpad logo speaker">-Thor, God of Thunder</p>
+    </div>
+    <div class="callSection flexRow">
+        <div class="blueBox">
+            <div style="padding: 30px">
+                <p class="logo nomarginpad">Call to action! It's time!</p>
+                <p class="nomarginpad">Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <button class="signUp nomarginpad">Sign up</button>
+        </div>
+    </div>
+    <div class="footer flexColumn">
+        <p>Copyright The Odin Project 2023</p>
     </div>
 </body>
 </html>
